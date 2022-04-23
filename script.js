@@ -12,7 +12,7 @@ menuImg1.addEventListener('click', function(){
 
 menuImg2.addEventListener('click', function(){
     let varVideo = document.querySelector('#videoSlider');
-    varVideo.src = '/video/islands.mp4';
+    varVideo.src = 'video/islands.mp4';
 });
 
 menuImg3.addEventListener('click', function(){
