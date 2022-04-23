@@ -38,11 +38,11 @@ function changeTitle(icon, text){
 
 window.onblur = () => {
     timer = setTimeout (() => {
-        changeTitle('.4.ico', 'Не возвращайся.');
+        changeTitle('4.ico', 'Не возвращайся.');
     }, 3000)
 }
 
 window.onfocus = () => {
     clearTimeout(timer);
-    changeTitle('.3.ico', titleOld);
+    changeTitle('3.ico', titleOld);
 }
